@@ -47,4 +47,4 @@ This project is licensed under the [MIT License) (LICENSE). You are free to use,
 
 ### About Me
 
-Hi there! I'm Bharath Kumar Reddy Yannapoosala, also known as YBKR. I'm an IT and Operation's professional and passionate YouTuber on a mission knowledge to share enjoyable and engaging!
+Hi there! I'm Bharath Kumar Reddy Yannapoosala (YBKR), an IT & Operations professional and data-driven Data Engineer focused on transforming raw data into high-quality, scalable datasets that drive analytics and business decisions.
