@@ -14,7 +14,7 @@
   ==============================================================================================================================================================
 */
 
---- 1. Creating the fact sales table
+--- 1. Creating the fact sales views
 
 ---- DROP VIEW gold.fact_sales;
 CREATE VIEW gold.fact_sales AS
@@ -36,7 +36,8 @@ ON sd.sls_cust_id = cu.customer_id --- AS customer_key
 --- SELECT * FROM gold.fact_sales;
 
 
---- 2. Creating the dim customers table
+--- 2. Creating the dim customers views
+	
 --- DROP VIEW gold.dim_customers;
 CREATE VIEW gold.dim_customers AS
 SELECT
@@ -56,7 +57,8 @@ ON ci.cst_key = la.cid;
 --- SELECT * FROM gold.dim_customers;
 
 
---- 3. Creating the dim products table
+--- 3. Creating the dim products views
+
 --- DROP VIEW gold.dim_products;
 CREATE VIEW gold.dim_products AS
 SELECT 
